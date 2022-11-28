@@ -21,10 +21,10 @@ var rootCmd = &cobra.Command{
 
 var versionCmd = &cobra.Command{
 	Use:   "version",
-	Short: "Print the version number of Hugo",
-	Long:  `All software has versions. This is Hugo's`,
+	Short: "Print the version number of aide-family-cli",
+	Long:  `All software has versions. This is aide-family-cli's`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("Hugo Static Site Generator v0.9 -- HEAD")
+		fmt.Println("aide-family-cli v0.0.1 -- HEAD")
 	},
 }
 
